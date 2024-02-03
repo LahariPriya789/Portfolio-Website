@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Montserrat:wght@200&family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+    margin:0;
+    background-color: black;    /*wholw page black*/
+    color: white;             /* text white color*/
+}
+.navbar{
+    display: flex;
+    flex-direction: row;          /* logo, home, about anni oka row lo ki osthai (column lo kuda petkovachu)*/
+    justify-content: space-between;   /* logo and  home, about  vati madya gap osthadi (home left corner ki inka home avi right corner ki)*/
+    background-color: rgb(64, 144, 64);
+
+}
+.navbar-left{
+    padding-left: 20px;   /* logo ki left side 20 pixel gap osthadi (maree border ki athukokunda)*/
+}
+
+.navbar-right{
+    padding-right: 20px;   /* home avi top nundi 20 pixel gap*/
+    display: flex;
+    flex-direction: row;  /*anni oka row lo osthai*/
+    align-items: center;  /*anni center lo ki osthai (end pedthe kindaki osthai)*/
+}
+
+.a-element{
+    padding: 10px;      /* home, about vaati madya koncham gap osthadi*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home{
+    display: flex;
+    align-items: center;        
+    justify-content: space-between;   /* na info left side osthadi and image right side osthadi*/
+    height: 80vh;            /* total 80 height osthai andulo mana info text center lo osthadi . bc0z:align-items: center; kabatti*/
+    /* border: 2px  solid black;         80vh ki black border osthadi */
+}
+
+.home-left{
+    width: 85vw;   /* mana info 50 vw varake osthadi in width*/
+    padding-left: 20px;
+}
+.home-right{
+    /* width: 50vw; */
+    /* height: 5vh; */
+    padding:50px;
+}
+
+.home-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+
+}
+.home-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+
+}
+.services{
+    padding:50px;
+    text-align: center;
+
+}
+.ser-h1{
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(57, 114, 57);
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-style: italic;
+}
+.services-sub-cont{
+    display: flex;
+    flex-direction: row;  
+}
+.services-card{
+    border: 2px rgb(216, 54, 54) solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.sc-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+.sc-p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.contact {
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.social-icon-img{
+    height:50px;        /* insta img chala peddaga undi. so chinnaga chesam */
+    padding:10px
+}
